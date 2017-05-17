@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.14" icons="true">  
+  <object id="1" language="java" name="com.wb.controller.NotificationController" project="NotificationService" 
+    file="/NotificationService/src/main/java/com/wb/controller/NotificationController.java" binary="false" 
+    label="notificationController" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="130" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="143" x="5" y="108"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="com.wb.service.NotificationService" project="NotificationService" 
+    file="/NotificationService/src/main/java/com/wb/service/NotificationService.java" binary="false" 
+    label="notificationService" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="339" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="130" x="152" y="129"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="getHealthStatus():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>
+</sequence-diagram>
