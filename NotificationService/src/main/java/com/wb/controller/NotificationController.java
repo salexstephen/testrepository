@@ -17,5 +17,11 @@ public class NotificationController {
 		//notificationService.getHealthStatus();
 		return "health done";
 	}
+	
+	@RequestMapping("/")
+	public String getHome() {
+		//notificationService.getHealthStatus();
+		return "home";
+	}
 
 }
